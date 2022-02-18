@@ -9,13 +9,57 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="img/logoal.png" />
     <title>INMLUX &mdash; Find your home</title>
   </head>
   <body class="container">
-    <div class="sidebar">Sidebar</div>
-    <header class="header">Header</header>
-    <div class="realtors">Our team</div>
+    <div class="sidebar">
+      <figure>
+        <img src="img/logoal.png" alt="My logo" />
+        <figcaption>InMLUX</figcaption>
+      </figure>
+    </div>
+    <header class="header">
+      <img src="img/logoal.png" alt="Company Logo" class="header__logo" />
+      <div class="header__desc">
+        <h3 class="heading-3">Your own Home</h3>
+        <h1 class="heading-1">Make your dreams come true</h1>
+        <button class="btn">View our listings</button>
+      </div>
+      <div class="header__promo">
+        <p>As seen on</p>
+        <div class="header__logos">
+          <img src="img/logo-bbc.png" alt="BBC Logo" />
+          <img src="img/logo-forbes.png" alt="BBC Logo" />
+          <img src="img/logo-bi.png" alt="BBC Logo" />
+          <img src="img/logo-techcrunch.png" alt="BBC Logo" />
+        </div>
+      </div>
+    </header>
+    <div class="realtors">
+      <h3 class="heading-3">Our team</h3>
+      <div class="realtors__profile">
+        <img src="img/realtor-1.jpeg" alt="Company Member Picture" />
+        <div class="realtors__desc">
+          <h4>Cristiano Ronaldo</h4>
+          <p>GOAT</p>
+        </div>
+      </div>
+      <div class="realtors__profile">
+        <img src="img/realtor-2.jpeg" alt="Company Member Picture" />
+        <div class="realtors__desc">
+          <h4>Alex Morgan</h4>
+          <p>Top Seller</p>
+        </div>
+      </div>
+      <div class="realtors__profile">
+        <img src="img/realtor-3.jpeg" alt="Company Member Picture" />
+        <div class="realtors__desc">
+          <h4>Didier Drogba</h4>
+          <p>Best Closer</p>
+        </div>
+      </div>
+    </div>
     <section class="features">
       <div class="feature">
         <svg class="feature__icon">
@@ -78,10 +122,294 @@
         </p>
       </div>
     </section>
-    <div class="story__pictures">Story</div>
-    <div class="story__content">Content</div>
-    <section class="homes">Homes</section>
-    <section class="gallery">Gallery</section>
-    <footer class="footer">Footer</footer>
+    <div class="story__pictures">
+      <img
+        src="img/story-1.jpeg"
+        alt="Couple"
+        class="story__img story__img--1"
+      />
+      <img
+        src="img/story-2.jpeg"
+        alt="House"
+        class="story__img story__img--2"
+      />
+    </div>
+    <div class="story__content">
+      <h3 class="heading-3 mb-1">Happy Owners</h3>
+      <h2 class="heading-2 heading-2--dark mb-2">
+        &ldquo; Best financial decision of your life &rdquo;
+      </h2>
+      <p class="story__text mb-3">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+        distinctio necessitatibus pariatur voluptatibus. Quidem consequatur
+        harum volupta!
+      </p>
+      <button class="btn">Find your home</button>
+    </div>
+    <section class="homes">
+      <div class="home">
+        <img src="img/house-1.jpeg" alt="House" class="home__img" />
+        <svg class="home__like">
+          <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+        </svg>
+        <h5 class="home__name">Beautiful Family House</h5>
+        <div class="home__location">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+          </svg>
+          <p>USA</p>
+        </div>
+        <div class="home__rooms">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-profile-male"></use>
+          </svg>
+          <p>5 rooms</p>
+        </div>
+        <div class="home__area">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-expand"></use>
+          </svg>
+          <p>325 m<sup>2</sup></p>
+        </div>
+        <div class="home__price">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-key"></use>
+          </svg>
+          <p>$1.2MM</p>
+        </div>
+        <button class="cta">Make an offer</button>
+      </div>
+      <div class="home">
+        <img src="img/house-2.jpeg" alt="House" class="home__img" />
+        <svg class="home__like">
+          <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+        </svg>
+        <h5 class="home__name">Modern Villa</h5>
+        <div class="home__location">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+          </svg>
+          <p>Mexico</p>
+        </div>
+        <div class="home__rooms">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-profile-male"></use>
+          </svg>
+          <p>6 rooms</p>
+        </div>
+        <div class="home__area">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-expand"></use>
+          </svg>
+          <p>430 m<sup>2</sup></p>
+        </div>
+        <div class="home__price">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-key"></use>
+          </svg>
+          <p>$0.7MM</p>
+        </div>
+        <button class="cta">Make an offer</button>
+      </div>
+      <div class="home">
+        <img src="img/house-3.jpeg" alt="House" class="home__img" />
+        <svg class="home__like">
+          <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+        </svg>
+        <h5 class="home__name">Country House</h5>
+        <div class="home__location">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+          </svg>
+          <p>Portugal</p>
+        </div>
+        <div class="home__rooms">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-profile-male"></use>
+          </svg>
+          <p>4 rooms</p>
+        </div>
+        <div class="home__area">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-expand"></use>
+          </svg>
+          <p>250 m<sup>2</sup></p>
+        </div>
+        <div class="home__price">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-key"></use>
+          </svg>
+          <p>$0.9MM</p>
+        </div>
+        <button class="cta">Make an offer</button>
+      </div>
+      <div class="home">
+        <img src="img/house-4.jpeg" alt="House" class="home__img" />
+        <svg class="home__like">
+          <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+        </svg>
+        <h5 class="home__name">Large Antique Home</h5>
+        <div class="home__location">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+          </svg>
+          <p>Germany</p>
+        </div>
+        <div class="home__rooms">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-profile-male"></use>
+          </svg>
+          <p>6 rooms</p>
+        </div>
+        <div class="home__area">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-expand"></use>
+          </svg>
+          <p>480 m<sup>2</sup></p>
+        </div>
+        <div class="home__price">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-key"></use>
+          </svg>
+          <p>$1.6MM</p>
+        </div>
+        <button class="cta">Make an offer</button>
+      </div>
+      <div class="home">
+        <img src="img/house-5.jpeg" alt="House" class="home__img" />
+        <svg class="home__like">
+          <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+        </svg>
+        <h5 class="home__name">Majestic Palace</h5>
+        <div class="home__location">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+          </svg>
+          <p>USA</p>
+        </div>
+        <div class="home__rooms">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-profile-male"></use>
+          </svg>
+          <p>15 rooms</p>
+        </div>
+        <div class="home__area">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-expand"></use>
+          </svg>
+          <p>1,500 m<sup>2</sup></p>
+        </div>
+        <div class="home__price">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-key"></use>
+          </svg>
+          <p>$2.5MM</p>
+        </div>
+        <button class="cta">Make an offer</button>
+      </div>
+      <div class="home">
+        <img src="img/house-6.jpeg" alt="House" class="home__img" />
+        <svg class="home__like">
+          <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+        </svg>
+        <h5 class="home__name">Modern Appartment</h5>
+        <div class="home__location">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+          </svg>
+          <p>Turkey</p>
+        </div>
+        <div class="home__rooms">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-profile-male"></use>
+          </svg>
+          <p>3 rooms</p>
+        </div>
+        <div class="home__area">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-expand"></use>
+          </svg>
+          <p>200 m<sup>2</sup></p>
+        </div>
+        <div class="home__price">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-key"></use>
+          </svg>
+          <p>$0.5MM</p>
+        </div>
+        <button class="cta">Make an offer</button>
+      </div>
+    </section>
+    <section class="gallery">
+      <figure class="gallery__item gallery__item--1">
+        <img src="img/gal-1.jpeg" alt="Home picture" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--2">
+        <img src="img/gal-2.jpeg" alt="Home picture" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--3">
+        <img src="img/gal-3.jpeg" alt="Home picture" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--4">
+        <img src="img/gal-4.jpeg" alt="Home picture" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--5">
+        <img src="img/gal-5.jpeg" alt="Home picture" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--6">
+        <img src="img/gal-6.jpeg" alt="Home picture" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--7">
+        <img src="img/gal-7.jpeg" alt="Home picture" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--8">
+        <img src="img/gal-8.jpeg" alt="Home picture" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--9">
+        <img src="img/gal-9.jpeg" alt="Home picture" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--10">
+        <img src="img/gal-10.jpeg" alt="Home picture" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--11">
+        <img src="img/gal-11.jpeg" alt="Home picture" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--12">
+        <img src="img/gal-12.jpeg" alt="Home picture" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--13">
+        <img src="img/gal-13.jpeg" alt="Home picture" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--14">
+        <img src="img/gal-14.jpeg" alt="Home picture" class="gallery__img" />
+      </figure>
+    </section>
+    <footer class="footer">
+      <nav class="nav">
+        <li class="nav__item">
+          <a href="#" class="nav__link">Contact Us</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Request Brochure</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Download Financial Planner</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Submit property</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Evaluate Us</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Work with us</a>
+        </li>
+      </nav>
+      <p>
+        &copy; Coypright 2022. Alejo Lagos. An original Design by Jonas
+        Schmedtmann.
+        <br />Only for portfolio purposes
+      </p>
+    </footer>
   </body>
 </html>
